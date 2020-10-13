@@ -1,0 +1,5 @@
+- program pokazuje restauracje
+- dzieli je na regiony
+- pokazuje menue (jak się uda to też składniki)
+- pokazuje informacje o restauracji
+- pozwala symulować rejestracje do restauracji
