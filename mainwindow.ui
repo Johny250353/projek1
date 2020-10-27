@@ -73,7 +73,7 @@
      <widget class="QDateTimeEdit" name="dateTimeEdit">
       <property name="geometry">
        <rect>
-        <x>240</x>
+        <x>230</x>
         <y>500</y>
         <width>194</width>
         <height>22</height>
@@ -83,9 +83,9 @@
      <widget class="QPushButton" name="pushButton">
       <property name="geometry">
        <rect>
-        <x>234</x>
-        <y>532</y>
-        <width>191</width>
+        <x>220</x>
+        <y>530</y>
+        <width>101</width>
         <height>41</height>
        </rect>
       </property>
@@ -93,7 +93,7 @@
        <string>Dodaj rezerwacje</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox">
+     <widget class="QComboBox" name="lista1">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -161,12 +161,12 @@
        <string>Lista Restauracji</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="pushButton_showmenu1">
       <property name="geometry">
        <rect>
         <x>10</x>
         <y>500</y>
-        <width>211</width>
+        <width>201</width>
         <height>71</height>
        </rect>
       </property>
@@ -202,7 +202,7 @@
        <string>Informacje o restauracji:</string>
       </property>
      </widget>
-     <widget class="QCheckBox" name="checkBox_2">
+     <widget class="QCheckBox" name="check_onoff1">
       <property name="geometry">
        <rect>
         <x>240</x>
@@ -215,6 +215,19 @@
        <string>On/Off</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>530</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Usuń rezerwacje</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="rynek">
      <attribute name="title">
@@ -223,9 +236,9 @@
      <widget class="QPushButton" name="pushButton_2">
       <property name="geometry">
        <rect>
-        <x>234</x>
-        <y>532</y>
-        <width>191</width>
+        <x>220</x>
+        <y>530</y>
+        <width>101</width>
         <height>41</height>
        </rect>
       </property>
@@ -236,7 +249,7 @@
      <widget class="QDateTimeEdit" name="dateTimeEdit_2">
       <property name="geometry">
        <rect>
-        <x>240</x>
+        <x>230</x>
         <y>500</y>
         <width>194</width>
         <height>22</height>
@@ -261,7 +274,7 @@
        <string>Lista Restauracji</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_2">
+     <widget class="QComboBox" name="lista2">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -334,12 +347,12 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="pushButton_showmenu2">
       <property name="geometry">
        <rect>
         <x>10</x>
         <y>500</y>
-        <width>211</width>
+        <width>201</width>
         <height>71</height>
        </rect>
       </property>
@@ -347,7 +360,7 @@
        <string>Pokaż menu</string>
       </property>
      </widget>
-     <widget class="QCheckBox" name="checkBox">
+     <widget class="QCheckBox" name="check_onoff2">
       <property name="geometry">
        <rect>
         <x>240</x>
@@ -358,6 +371,19 @@
       </property>
       <property name="text">
        <string>On/Off</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>530</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Usuń rezerwacje</string>
       </property>
      </widget>
     </widget>
@@ -410,6 +436,88 @@
    </widget>
   </widget>
  </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>lista1</tabstop>
+  <tabstop>check_onoff1</tabstop>
+  <tabstop>listView_2</tabstop>
+  <tabstop>pushButton_showmenu1</tabstop>
+  <tabstop>dateTimeEdit</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>lista2</tabstop>
+  <tabstop>check_onoff2</tabstop>
+  <tabstop>listView_3</tabstop>
+  <tabstop>pushButton_showmenu2</tabstop>
+  <tabstop>dateTimeEdit_2</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>listView</tabstop>
+  <tabstop>calendarWidget</tabstop>
+ </tabstops>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>dateTimeEdit</sender>
+   <signal>dateChanged(QDate)</signal>
+   <receiver>calendarWidget</receiver>
+   <slot>showSelectedDate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>421</x>
+     <y>593</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>601</x>
+     <y>612</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lista1</sender>
+   <signal>windowIconTextChanged(QString)</signal>
+   <receiver>listView_2</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>314</x>
+     <y>143</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>373</x>
+     <y>361</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lista1</sender>
+   <signal>windowIconChanged(QIcon)</signal>
+   <receiver>listView</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>567</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>check_onoff1</sender>
+   <signal>clicked()</signal>
+   <receiver>lista1</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>286</x>
+     <y>197</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>111</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
