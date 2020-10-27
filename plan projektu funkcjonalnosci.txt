@@ -3,3 +3,9 @@
 - pokazuje menue (jak się uda to też składniki)
 - pokazuje informacje o restauracji
 - pozwala symulować rejestracje do restauracji
+
+
+To Do:
+-ogarnać by wybrana restauracja pokazywała swoje menue oraz informacje o restauracji (wybór pokazuje teskt)
+- jak zrobic sparowanie przycisku on/off z wyborem restauracji
+- jak dodawać eventy do kalendarza
