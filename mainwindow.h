@@ -21,6 +21,10 @@ private slots:
 
     void on_button_bravo_clicked();
 
+    void on_button_soczewka_clicked();
+
+    void on_button_dwor_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
