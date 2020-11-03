@@ -57,10 +57,10 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>60</y>
       <width>441</width>
-      <height>601</height>
+      <height>171</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -70,79 +70,6 @@
      <attribute name="title">
       <string>Rynek</string>
      </attribute>
-     <widget class="QDateTimeEdit" name="dateTimeEdit">
-      <property name="geometry">
-       <rect>
-        <x>230</x>
-        <y>500</y>
-        <width>194</width>
-        <height>22</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton">
-      <property name="geometry">
-       <rect>
-        <x>220</x>
-        <y>530</y>
-        <width>101</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Dodaj rezerwacje</string>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="lista1">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>40</y>
-        <width>301</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <item>
-       <property name="text">
-        <string>wybierz z listy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Dwór Polski</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>O Sole Mio</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Restauracja Czeska</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Soczeka</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Spiż</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Whyski in the Jar</string>
-       </property>
-      </item>
-     </widget>
      <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
@@ -161,71 +88,30 @@
        <string>Lista Restauracji</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_showmenu1">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>500</y>
-        <width>201</width>
-        <height>71</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Pokaż menu</string>
-      </property>
-     </widget>
-     <widget class="QListView" name="listView_2">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>170</y>
-        <width>421</width>
-        <height>321</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_5">
+     <widget class="QPushButton" name="button_soczewka">
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>140</y>
-        <width>301</width>
-        <height>31</height>
+        <y>40</y>
+        <width>181</width>
+        <height>91</height>
        </rect>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
       <property name="text">
-       <string>Informacje o restauracji:</string>
+       <string>Soczewka</string>
       </property>
      </widget>
-     <widget class="QCheckBox" name="check_onoff1">
+     <widget class="QPushButton" name="button_dwor">
       <property name="geometry">
        <rect>
-        <x>240</x>
-        <y>100</y>
-        <width>70</width>
-        <height>21</height>
+        <x>230</x>
+        <y>40</y>
+        <width>181</width>
+        <height>91</height>
        </rect>
       </property>
       <property name="text">
-       <string>On/Off</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_6">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>530</y>
-        <width>101</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Usuń rezerwacje</string>
+       <string>Dwór Polski</string>
       </property>
      </widget>
     </widget>
@@ -233,29 +119,6 @@
      <attribute name="title">
       <string>Śródmieście</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="geometry">
-       <rect>
-        <x>220</x>
-        <y>530</y>
-        <width>101</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Dodaj rezerwacje</string>
-      </property>
-     </widget>
-     <widget class="QDateTimeEdit" name="dateTimeEdit_2">
-      <property name="geometry">
-       <rect>
-        <x>230</x>
-        <y>500</y>
-        <width>194</width>
-        <height>22</height>
-       </rect>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
@@ -274,116 +137,30 @@
        <string>Lista Restauracji</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="lista2">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>40</y>
-        <width>301</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <item>
-       <property name="text">
-        <string>wybierz z listy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>U Gruzina</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>PANda Sushi</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Pizza nel Parco</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Pizzeria Bravo</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Thali Kuchnia Indyjska</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QLabel" name="label_7">
+     <widget class="QPushButton" name="button_Panda">
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>140</y>
-        <width>301</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Informacje o restauracji</string>
-      </property>
-     </widget>
-     <widget class="QListView" name="listView_3">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>170</y>
-        <width>421</width>
-        <height>321</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_showmenu2">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>500</y>
-        <width>201</width>
-        <height>71</height>
+        <y>40</y>
+        <width>181</width>
+        <height>91</height>
        </rect>
       </property>
       <property name="text">
-       <string>Pokaż menu</string>
+       <string>PANda Ramen</string>
       </property>
      </widget>
-     <widget class="QCheckBox" name="check_onoff2">
+     <widget class="QPushButton" name="button_bravo">
       <property name="geometry">
        <rect>
-        <x>240</x>
-        <y>100</y>
-        <width>70</width>
-        <height>21</height>
+        <x>230</x>
+        <y>40</y>
+        <width>181</width>
+        <height>91</height>
        </rect>
       </property>
       <property name="text">
-       <string>On/Off</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_5">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>530</y>
-        <width>101</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Usuń rezerwacje</string>
+       <string>Pizza Bravo</string>
       </property>
      </widget>
     </widget>
@@ -406,16 +183,6 @@
      <string>Menu:</string>
     </property>
    </widget>
-   <widget class="QListView" name="listView">
-    <property name="geometry">
-     <rect>
-      <x>490</x>
-      <y>80</y>
-      <width>391</width>
-      <height>351</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
@@ -434,90 +201,93 @@
      <string>Aplikacja restauracji Wrocławskich</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>250</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Informacje o restauracji:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_rezerw1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>590</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dodaj rezerwacje</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_unreserw1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>590</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Usuń rezerwacje</string>
+    </property>
+   </widget>
+   <widget class="QDateTimeEdit" name="dateTimeEdit1">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>550</y>
+      <width>194</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textinfo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>451</width>
+      <height>241</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textmenu">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>80</y>
+      <width>361</width>
+      <height>361</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
  </widget>
  <tabstops>
   <tabstop>tabWidget</tabstop>
-  <tabstop>lista1</tabstop>
-  <tabstop>check_onoff1</tabstop>
-  <tabstop>listView_2</tabstop>
-  <tabstop>pushButton_showmenu1</tabstop>
-  <tabstop>dateTimeEdit</tabstop>
-  <tabstop>pushButton</tabstop>
-  <tabstop>lista2</tabstop>
-  <tabstop>check_onoff2</tabstop>
-  <tabstop>listView_3</tabstop>
-  <tabstop>pushButton_showmenu2</tabstop>
-  <tabstop>dateTimeEdit_2</tabstop>
-  <tabstop>pushButton_2</tabstop>
-  <tabstop>listView</tabstop>
+  <tabstop>button_soczewka</tabstop>
+  <tabstop>button_dwor</tabstop>
+  <tabstop>dateTimeEdit1</tabstop>
+  <tabstop>button_rezerw1</tabstop>
+  <tabstop>button_unreserw1</tabstop>
+  <tabstop>button_Panda</tabstop>
+  <tabstop>button_bravo</tabstop>
   <tabstop>calendarWidget</tabstop>
  </tabstops>
  <resources/>
- <connections>
-  <connection>
-   <sender>dateTimeEdit</sender>
-   <signal>dateChanged(QDate)</signal>
-   <receiver>calendarWidget</receiver>
-   <slot>showSelectedDate()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>421</x>
-     <y>593</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>601</x>
-     <y>612</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>lista1</sender>
-   <signal>windowIconTextChanged(QString)</signal>
-   <receiver>listView_2</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>314</x>
-     <y>143</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>373</x>
-     <y>361</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>lista1</sender>
-   <signal>windowIconChanged(QIcon)</signal>
-   <receiver>listView</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>316</x>
-     <y>154</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>567</x>
-     <y>166</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>check_onoff1</sender>
-   <signal>clicked()</signal>
-   <receiver>lista1</receiver>
-   <slot>showMinimized()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>286</x>
-     <y>197</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>111</x>
-     <y>172</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

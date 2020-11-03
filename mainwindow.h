@@ -15,6 +15,12 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+
+    void on_button_Panda_clicked();
+
+    void on_button_bravo_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
