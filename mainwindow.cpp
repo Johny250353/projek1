@@ -3,6 +3,8 @@
 #include <QFile>
 #include <QTextStream>
 #include <QMessageBox>
+#include <QDataStream>
+#include <QDateTime>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -187,3 +189,4 @@ void MainWindow::on_button_bravo_clicked()
     }
 
 }
+
