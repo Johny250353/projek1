@@ -1,0 +1,11 @@
+MENU
+1. Margherita
+8,80 zł 12,90 zł 26,50 zł
+2. Chlebek czosnkowy
+8,90 zł 12,90 zł
+3. Funghi
+10,30 zł 14,90 zł 31,00 zł
+4. Pomodoro\n\n"
+10,30 zł 14,90 zł 31,00 zł
+5. Neapolitana
+10,80 zł 15,70 zł 31,50 zł

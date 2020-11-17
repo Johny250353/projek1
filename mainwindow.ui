@@ -64,7 +64,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tab1">
      <attribute name="title">
@@ -91,7 +91,7 @@
      <widget class="QPushButton" name="button_soczewka">
       <property name="geometry">
        <rect>
-        <x>30</x>
+        <x>230</x>
         <y>40</y>
         <width>181</width>
         <height>91</height>
@@ -104,7 +104,7 @@
      <widget class="QPushButton" name="button_dwor">
       <property name="geometry">
        <rect>
-        <x>230</x>
+        <x>30</x>
         <y>40</y>
         <width>181</width>
         <height>91</height>
@@ -222,47 +222,27 @@
    <widget class="QPushButton" name="button_rezerw1">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>590</y>
-      <width>101</width>
-      <height>41</height>
+      <x>60</x>
+      <y>560</y>
+      <width>111</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="text">
-     <string>Dodaj rezerwacje</string>
+     <string>Edytuj rezerwacje</string>
     </property>
    </widget>
    <widget class="QPushButton" name="button_unreserw1">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>590</y>
-      <width>101</width>
-      <height>41</height>
+      <x>60</x>
+      <y>480</y>
+      <width>111</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="text">
-     <string>Usuń rezerwacje</string>
-    </property>
-   </widget>
-   <widget class="QDateTimeEdit" name="dateTimeEdit1">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>550</y>
-      <width>194</width>
-      <height>22</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="textinfo">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>290</y>
-      <width>451</width>
-      <height>241</height>
-     </rect>
+     <string>Wyświetl rezerwacje</string>
     </property>
    </widget>
    <widget class="QTextBrowser" name="textmenu">
@@ -275,13 +255,23 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="textBrowser">
+   <widget class="QPlainTextEdit" name="plainTextEdit_2">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>560</y>
+      <x>180</x>
+      <y>480</y>
       <width>251</width>
-      <height>91</height>
+      <height>161</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>461</width>
+      <height>181</height>
      </rect>
     </property>
    </widget>
@@ -291,7 +281,6 @@
   <tabstop>tabWidget</tabstop>
   <tabstop>button_soczewka</tabstop>
   <tabstop>button_dwor</tabstop>
-  <tabstop>dateTimeEdit1</tabstop>
   <tabstop>button_rezerw1</tabstop>
   <tabstop>button_unreserw1</tabstop>
   <tabstop>button_Panda</tabstop>

@@ -17,13 +17,18 @@ public:
 
 private slots:
 
-    void on_button_Panda_clicked();
 
-    void on_button_bravo_clicked();
+    void on_button_rezerw1_clicked();
+
+    void on_button_unreserw1_clicked();
+
+    void on_button_dwor_clicked();
 
     void on_button_soczewka_clicked();
 
-    void on_button_dwor_clicked();
+    void on_button_Panda_clicked();
+
+    void on_button_bravo_clicked();
 
 private:
     Ui::MainWindow *ui;

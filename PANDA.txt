@@ -1,0 +1,297 @@
+"(POLECANE)\n\n"
+                          "-PANda na wypasie (duży)\n\n"
+                          "bulion wieprzowo-wołowy, chashu, szarpana wieprzowina, kapusta pekińska, kiełki fasoli mung\n"
+                          "Do wyboru: szczypiorek, kukurydza, daikon (japońska rzepa), tykwa, kimchi i więcej.\n\n"
+                          "35,50 zł\n\n"
+
+                          "-PANda na wypasie\n\n"
+                          "bulion wieprzowo-wołowy, chashu, szarpana wieprzowina, kapusta pekińska, kiełki fasoli mung\n"
+                          "Do wyboru: Mały lub Duży.\n\n"
+                          "25,50 zł\n\n"
+
+                          "-PANda na diecie﻿\n\n"
+                          "lekki bulion drobiowy, kurczak po japońsku, marynowane jajko, kapusta pekińska, kiełki fasoli mung\n"
+                          "Do wyboru: Mały lub Duży.\n\n"
+
+                          "(ZESTAWY)/n/n"
+
+                          "-Kiri (14 szt.)﻿"
+                          "(futomaki: vege tofu, gunkanmaki: ogórek z gomma wakame)\n"
+                          "Do wyboru: bez powiększenia, dobierz szczepana 12 szt., holly crab 12 szt., sos sojowy i wasabi i imbir.\n"
+                          "37,50 zł"
+
+                          "-Kame (14 szt.)\n\n"
+                          "(futomaki: łosoś pieczony, uramaki: krewetka z tempury,Nigiri: krewetka, tamago, węgorz)\n"
+                          "Do wyboru: bez powiększenia, dobierz szczepana 12 szt., holly crab 12 szt., sos sojowy i wasabi i imbir.\n\n"
+                          "49,50 zł\n\n"
+
+                          "-Nami (14 szt.)\n\n"
+                          "(futomaki: philadelphia, hosomaki: łosoś, nigiri: łosoś)\n"
+                          "Do wyboru: bez powiększenia, dobierz szczepana 12 szt., holly crab 12 szt., sos sojowy i wasabi i imbir.\n"
+                          "45,50 zł\n\n"
+
+                          "-Tori (17 szt.)\n\n"
+                          "(futomaki: krewetka, hosomaki: tuńczyk, uramaki: california z łososiem)\n"
+                          "Do wyboru: bez powiększenia, dobierz szczepana 12 szt., holly crab 12 szt., sos sojowy i wasabi i imbir.\n"
+                          "50,50 zł\n\n"
+
+                          "-Ookami (29 szt.)\n\n"
+                          "(futomaki: łosoś pieczony, philadelphia, hosomaki: takuan, labraks, uramaki: california z krewetką\n"
+                          "Do wyboru: bez powiększenia, dobierz szczepana 12 szt., holly crab 12 szt., sos sojowy i wasabi i imbir.\n"
+                          "74,00 zł\n\n"
+
+                          "-Iruka (26 szt.)\n\n"
+                          "(futomaki:łosoś pieczony, hosomaki: vege w tempurze, uramaki: california, krewetka z tempury, nigiri: krewetka, tamago)\n"
+                          "Do wyboru: bez powiększenia, dobierz szczepana 12 szt., holly crab 12 szt., sos sojowy i wasabi i imbir.\n"
+                          "84,00 zł\n\n"
+
+                          "-Tokage (28 szt.)\n\n"
+                          "(futomaki: tatar z łososia w tempurze, krab, uramaki: california gravlax, krewetka masago, nigiri: labraks, łosoś tataki, tuńczyk)\n"
+                          "Do wyboru: bez powiększenia, dobierz szczepana 12 szt., holly crab 12 szt., sos sojowy i wasabi i imbir.\n"
+                          "89,50 zł\n\n"
+
+                          "-Baburu (40 szt.)\n\n"
+                          "(futomaki: tatar łosoś, węgorz, krewetka z tempury, hosomaki: vege, uramaki: california, łosoś, \n"
+                          "krewetka masago, nigiri: labraks, łosoś, tuńczyk)\n"
+                          "Do wyboru: bez powiększenia, dobierz szczepana 12 szt., holly crab 12 szt., sos sojowy i wasabi i imbir.\n"
+                          "145,50 zł\n\n"
+
+                          "-Kemono (46 szt.)\n\n"
+                          "(futomaki: tatar łosoś w tempurze, tuńczyk, krab, hosomaki: vege w tempurze, makrela, \n"
+                          "uramaki: łosoś pieczony, krewetka z tempury)\n"
+                          "Do wyboru: bez powiększenia, dobierz szczepana 12 szt., holly crab 12 szt., sos sojowy i wasabi i imbir.\n"
+                          "150,50 zł\n\n"
+
+                          "(FUTOMAKI)\n\n"
+
+                          "-Futomaki Vege klasyk (6 szt.)﻿\n\n"
+                          "z serkiem i warzywami\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "17,50 zł\n\n"
+
+                          "-Futomaki Vege kinoko (6 szt.)﻿\n\n"
+                          "z serkiem, shitake, mozzarellą i warzywami\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "17,50 zł\n\n"
+
+                          "-Futomaki Kalmar tempura (6 szt.)\n\n"
+                          "z majonezem, ogórkiem i szczypiorkiem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "20,50 zł\n\n"
+
+                          "-Futomaki Ebi (6 szt.)﻿\n\n"
+                          "z majonezem, papryką i szczypiorkiem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "20,50 zł\n\n"
+
+                          "-Futomaki Krewetka tempura (6 szt.)﻿\n\n"
+                          "z majonezem, ogórkiem i porem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "23,50 zł\n\n"
+
+                          "-Futomaki Węgorz (6 szt.)\n\n"
+                          "z majonezem, papryką, szczypiorkiem i ogórkiem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "26,50 zł\n\n"
+
+                          "(URAMAKI)\n\n"
+
+                          "-Uramaki Łosoś surowy klasyk (5 szt.)\n\n"
+                          "z sezamem, serkiem i ogórkiem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "16,50 zł\n\n"
+
+                          "-Uramaki Łosoś surowy spicy (5 szt.)\n\n"
+                          "z togarashi, majonezem i takuanem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "16,50 zł\n\n"
+
+                          "-Uramaki Tuńczyk klasyk (5 szt.)﻿\n\n"
+                          "z majonezem, ogórkiem i sezamem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "19,50 zł\n\n"
+
+                          "-Uramaki Tuńczyk spicy (5 szt.)﻿\n\n"
+                          "z majonezem, togarashi i takuanem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "19,50 zł\n\n"
+
+                          "-Uramaki Łosoś pieczony słodki (5 szt.)\n\n"
+                          "z serkiem, ogórkiem i sezamem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "19,00 zł\n\n"
+
+                          "-Uramaki Łosoś pieczony ostry (5 szt.)\n\n"
+                          "z majonezem, srirachią i takuanem\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "19,00 zł\n\n"
+
+                          "-Uramaki California (5 szt.)﻿\n\n"
+                          "z sezamem, ogórkiem, majonezem, awokado i surimi\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "13,50 zł\n\n"
+
+                          "-Uramaki California z łososiem (5 szt.)﻿\n\n"
+                          "z sezamem, ogórkiem, majonezem, awokado i surimi\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "15,50 zł\n\n"
+
+                          "-Uramaki California z krewetką (5 szt.)﻿\n\n"
+                          "z sezamem, ogórkiem, majonezem, awokado i surimi\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "15,50 zł\n\n"
+
+                          "-Uramaki California z tuńczykiem (5 szt.)﻿\n\n"
+                          "z sezamem, ogórkiem, majonezem, awokado i surimi\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "19,50 zł\n\n"
+
+                          "-Uramaki Vege (5 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "11,50 zł\n\n"
+
+                          "-Uramaki California z węgorzem (5 szt.)﻿\n\n"
+                          "z sezamem, ogórkiem, majonezem, awokado i surimi\n"
+                          "19,50 zł\n\n"
+
+                          "(HOSOMAKI)\n\n"
+
+                          "-Hosomaki Łosoś (6 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "16,50 zł\n\n"
+
+                          "-Hosomaki Łosoś w panko (6 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "18,50 zł\n\n"
+
+                          "-Hosomaki Tuńczyk z porem (6 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "19,50 zł\n\n"
+
+                          "-Hosomaki Tuńczyk spicy (6 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "20,50 zł\n\n"
+
+                          "-Hosomaki Ogórek (6 szt.)\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "11,50 zł\n\n"
+
+                          "-Hosomaki Takuan (6 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "11,50 zł\n\n"
+
+                          "-Hosomaki Tykwa (6 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "11,50 zł\n\n"
+
+                          "-Hosomaki Tamago (6 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "12,50 zł\n\n"
+
+                          "-Hosomaki Węgorz (6 szt.)\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "19,50 zł\n\n"
+
+                          "(NIGIRI)\n\n"
+
+                          "-Nigiri Łosoś (2 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "17,50 zł\n\n"
+
+                          "-Nigiri Ebi (2 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "18,50 zł\n\n"
+
+                          "-Nigiri Tuńczyk (2 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "21,50 zł\n\n"
+
+                          "-Nigiri Tuńczyk tataki (2 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "21,50 zł\n\n"
+
+                          "-Nigiri Tuńczyk spicy (2 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "21,50 zł\n\n"
+
+                          "-Nigiri Tamago (2 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "11,50 zł\n\n"
+
+                          "-Nigiri Węgorz (2 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "21,50 zł\n\n"
+
+                          "(Tempura - przekąski z sosami podawane na ciepło)\n\n"
+
+                          "-Tempura krewetki (6 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "35,50 zł\n\n"
+
+                          "-Tempura kalmary (6 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "29,50 zł\n\n"
+
+                          "-Tempura warzywna (8 szt.)﻿\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "20,50 zł\n\n"
+
+                          "-Tempura mix (6 szt.)\n\n"
+                          "Do wyboru: sos sojowy i wasabi i imbir.\n"
+                          "32,50 zł\n\n"
+
+                          "(RAMEN)\n\n"
+
+                          "-PANda na wypasie\n\n"
+                          "bulion wieprzowo-wołowy, chashu, szarpana wieprzowina, kapusta pekińska, kiełki fasoli mung\n"
+                          "Do wyboru: Mały lub Duży.\n"
+                          "25,50 zł\n\n"
+
+                          "-Ramen curry﻿\n\n"
+                          "bulion curry na bazie drobiu, kurczak po japońsku, kapusta pekińska, kiełki fasoli mun\n"
+                          "Do wyboru: Mały lub Duży.\n"
+                          "25,50 zł\n\n"
+
+                          "-PANda na diecie﻿\n\n"
+                          "lekki bulion drobiowy, kurczak po japońsku, marynowane jajko, kapusta pekińska, kiełki fasoli mung\n"
+                          "Do wyboru: Mały lub Duży.\n"
+                          "23,50 zł\n\n"
+
+                          "-PANda vege﻿\n\n"
+                          "lekki bulion wegetariański na bazie miso, marynowane i smażone tofu, kapusta pekińska, kiełki fasoli mung\n"
+                          "Do wyboru: Mały lub Duży.\n"
+                          "21,50 zł\n\n"
+
+                          "(TATAR)\n\n"
+
+                          "-Tatar Łosoś﻿\n\n"
+                          "Do wyboru: Futomaki lub Miseczka.\n"
+                          "29,50 zł\n\n"
+
+                          "-Tatar Tuńczyk﻿\n\n"
+                          "Do wyboru: Futomaki lub Miseczka.\n"
+                          "32,50 zł\n\n"
+
+                          "(SAŁATKI)\n\n"
+
+                          "-Sałatka Kimchi\n\n"
+                          "z pikantna sałatka na bazie kapusty pekińskiej\n"
+                          "10,50 zł\n\n"
+
+                          "-Sałatka Wakame﻿\n\n"
+                          "z japońską sałatką, glonów wakame, ogórka i tofu\n"
+                          "9,50 zł\n\n"
+
+                          "-Sałatka Edame\n\n"
+                          "z zielonych strąków soi i solą morską\n"
+                          "13,50 zł\n\n"
+
+                          "-Sałatka Gomma wakame﻿\n\n"
+                          "z japońskiej sałaty oraz marynowanych glonów\n"
+                          "10,50 zł\n\n"
+
+                          "(DESERY)\n\n"
+
+                          "-Owoce w tempurze﻿\n\n"
+                          "mix owoców smażonych w cieście\n"
+                          "11,50 zł\n\n"
