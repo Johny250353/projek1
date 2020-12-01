@@ -4,12 +4,20 @@
 #include <QTextStream>
 #include <QMessageBox>
 #include <QDataStream>
-#include <QDateTime>
+#include <QtSql>
+
+
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    if(!rejestrdb.open())
+        ui->label_x->setText("baza danych On");
+    else
+        ui->label_x->setText("baza danych Off");
 }
 
 MainWindow::~MainWindow()
@@ -18,175 +26,93 @@ MainWindow::~MainWindow()
 }
 
 
-
-
-void MainWindow::on_button_rezerw1_clicked() //dodaje rezerw
+void MainWindow::on_button_utworz_clicked()
 {
-    QFile file("C:/Users/Admin/Documents/programrestuaracjav1/Rezerw.txt");
+    MainWindow conn;
+    QString n ,name, surname, data, h;
+    n=ui->text_n->text();
+    name=ui->text_name->text();
+    surname=ui->text_sur->text();
+    data=ui->text_day->text();
+    h=ui->text_h->text();
 
-   if (!file.open(QFile::WriteOnly | QFile::Text))
-   {
-       QMessageBox::warning(this, "Error", "file not open");
-       }
+    conn.connOpen();
+    QSqlQuery qry;
+    qry.prepare("insert into rezerwacje (n,name,surname,data,h) values  ('"+n+"', '"+name+"', '"+surname+"', '"+data+"', '"+h+"' ) " );
+            if(qry.exec())
     {
-   QTextStream out(&file);
-   QString text = ui->plainTextEdit_2->toPlainText();
-   out << text;
-   file.flush();
-   file.close();
-
-}
-  }
-
-void MainWindow::on_button_unreserw1_clicked() //wyswietla rezerwacje
-{
-    QFile file("C:/Users/Admin/Documents/programrestuaracjav1/Rezerw.txt");
-
-   if (!file.open(QFile::ReadOnly | QFile::Text))
-   {
-       QMessageBox::warning(this, "Error", "file not open");
-       }
-    {
-   QTextStream in(&file);
-   QString text = in.readAll();
-   ui->plainTextEdit_2->setPlainText(text);
-   file.flush();
-   file.close();
-
-}
-  }
-
-void MainWindow::on_button_dwor_clicked() //wyswietla menu i menu info Dworu polskiego
-{
-    QFile file("C:/Users/Admin/Documents/programrestuaracjav1/DWOR.txt");
-
-   if (!file.open(QFile::ReadOnly | QFile::Text))
-   {
-       QMessageBox::warning(this, "Error1", "file not open");
-       }
-    {
-   QTextStream in(&file);
-   QString text = in.readAll();
-   ui->textmenu->setPlainText(text);
-   file.flush();
-   file.close();
-
-}
-   QFile file2("C:/Users/Admin/Documents/programrestuaracjav1/INFODWOR.txt");
-
-  if (!file2.open(QFile::ReadOnly | QFile::Text))
-  {
-      QMessageBox::warning(this, "Error2", "file not open");
-      }
-   {
-  QTextStream in(&file2);
-  QString text1 = in.readAll();
-  ui->textEdit->setText(text1);
-  file2.flush();
-  file2.close();
-
-}
-}
-
-void MainWindow::on_button_soczewka_clicked()
-{
-    QFile file("C:/Users/Admin/Documents/programrestuaracjav1/SOCZEWKA.txt");
-
-   if (!file.open(QFile::ReadOnly | QFile::Text))
-   {
-       QMessageBox::warning(this, "Error1", "file not open");
-       }
-    {
-   QTextStream in(&file);
-   QString text = in.readAll();
-   ui->textmenu->setPlainText(text);
-   file.flush();
-   file.close();
-
-}
-   QFile file2("C:/Users/Admin/Documents/programrestuaracjav1/INFOSOCZEWKA.txt");
-
-  if (!file2.open(QFile::ReadOnly | QFile::Text))
-  {
-      QMessageBox::warning(this, "Error2", "file not open");
-      }
-   {
-  QTextStream in(&file2);
-  QString text1 = in.readAll();
-  ui->textEdit->setText(text1);
-  file2.flush();
-  file2.close();
-
-}
-}
-
-void MainWindow::on_button_Panda_clicked()
-{
-    {
-        QFile file("C:/Users/Admin/Documents/programrestuaracjav1/PANDA.txt");
-
-       if (!file.open(QFile::ReadOnly | QFile::Text))
-       {
-           QMessageBox::warning(this, "Error1", "file not open");
-           }
+        QMessageBox::critical(this,tr("oksave"),tr("its ok!"));
+        conn.connClose();
+    }
+            else
         {
-       QTextStream in(&file);
-       QString text = in.readAll();
-       ui->textmenu->setPlainText(text);
-       file.flush();
-       file.close();
-
-    }
-       QFile file2("C:/Users/Admin/Documents/programrestuaracjav1/INFOPANDA.txt");
-
-      if (!file2.open(QFile::ReadOnly | QFile::Text))
-      {
-          QMessageBox::warning(this, "Error2", "file not open");
-          }
-       {
-      QTextStream in(&file2);
-      QString text1 = in.readAll();
-      ui->textEdit->setText(text1);
-      file2.flush();
-      file2.close();
-
-    }
-    }
-
+         QMessageBox::critical(this,tr("nope"),tr("it is not ok!"));
+        }
 }
 
-void MainWindow::on_button_bravo_clicked()
+void MainWindow::on_button_edit_clicked()
 {
+    MainWindow conn;
+    QString n ,name, surname, data, h;
+    n=ui->text_n->text();
+    name=ui->text_name->text();
+    surname=ui->text_sur->text();
+    data=ui->text_day->text();
+    h=ui->text_h->text();
+
+    conn.connOpen();
+    QSqlQuery qry;
+    qry.prepare("update rezerwacje set n='"+n+"',name='"+name+"',surname='"+surname+"',data='"+data+"',h='"+h+"' where n='"+n+"' ");
+            if(qry.exec())
     {
-        QFile file("C:/Users/Admin/Documents/programrestuaracjav1/BRAVO.txt");
-
-       if (!file.open(QFile::ReadOnly | QFile::Text))
-       {
-           QMessageBox::warning(this, "Error1", "file not open");
-           }
+        QMessageBox::critical(this,tr("okedit"),tr("its ok!"));
+        conn.connClose();
+    }
+            else
         {
-       QTextStream in(&file);
-       QString text = in.readAll();
-       ui->textmenu->setPlainText(text);
-       file.flush();
-       file.close();
-
-    }
-       QFile file2("C:/Users/Admin/Documents/programrestuaracjav1/INFOBRAVO.txt");
-
-      if (!file2.open(QFile::ReadOnly | QFile::Text))
-      {
-          QMessageBox::warning(this, "Error2", "file not open");
-          }
-       {
-      QTextStream in(&file2);
-      QString text1 = in.readAll();
-      ui->textEdit->setText(text1);
-      file2.flush();
-      file2.close();
-
-    }
-    }
-
+         QMessageBox::critical(this,tr("nope"),tr("it is not ok!"));
+        }
 }
 
+void MainWindow::on_button_usun_clicked()
+{
+    MainWindow conn;
+    QString n ,name, surname, data, h;
+    n=ui->text_n->text();
+
+    conn.connOpen();
+    QSqlQuery qry;
+    qry.prepare("Delete from rezerwacje where n='"+n+"' ");
+            if(qry.exec())
+    {
+        QMessageBox::critical(this,tr("okdel"),tr("its ok!"));
+        conn.connClose();
+    }
+            else
+        {
+         QMessageBox::critical(this,tr("nope"),tr("it is not ok!"));
+        }
+}
+
+
+
+void MainWindow::on_button_wyswietl_clicked()
+{
+    MainWindow conn;
+    QSqlQueryModel * modal=new QSqlQueryModel();
+
+    conn.connOpen();
+    QSqlQuery* qry=new QSqlQuery(conn.rejestrdb);
+
+    qry->prepare("select n, name, surname, h from rezerwacje");
+
+    qry->exec();
+
+    modal->setQuery(*qry);
+    ui->tableView->setModel(modal);
+
+    conn.connClose();
+    qDebug()<<(modal->rowCount());
+
+
+}
